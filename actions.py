@@ -48,8 +48,7 @@ class MeleeAction(ActionWithDirection):
         if not target:
             return  # No entity to attack.
 
-        print(f"{self.name} kicks the {target.name}, much to its annoyance!") ## I changed this
-                ## could also be an attack from the monster too!
+        print(f"You kick the {target.name}, much to its annoyance!")
 
 
 class MovementAction(ActionWithDirection):
